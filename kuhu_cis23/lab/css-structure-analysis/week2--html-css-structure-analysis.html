@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>Week 2: Html Structure Analysis</title>
+
+    <!-- Adds: an internal stylesheet. -->
+    <style>
+      section { margin-top: 120px; }
+      #table-of-contents { margin: 80px 0; }
+      .anchor-offset { scroll-margin-top: 40px; }
+      .grid-col-2 {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-column-gap: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      Core 2 Interaction: Lab –&nbsp;<em>Week 2: HTML Structure Analysis</em>
+    </header>
+    <section id="table-of-contents">
+      <ul>
+        <li><a href="#screenshot">Screenshot ↓</a></li>
+        <li><a href="#analysis">Analysis ↓</a></li>
+        <li><a href="#questions">Questions ↓</a></li>
+      </ul>
+    </section>
+    <section id="screenshot">
+      <h2>Screenshot</h2>
+      <img src="Screenshot 1.png" style="width: 45%; display: inline-block; vertical-align: top; margin-right: 20px;">
+      <img src="Screenshot 2.png" style="width: 45%; display: inline-block; vertical-align: top;">
+    </section>
+    <section id="analysis">
+      <h2>Analysis</h2>
+      <div class="grid-col-2">
+        <div>
+          <pre id="analysis--simplified-html">
+            <!DOCTYPE html>
+            <html class="html--home">
+             <head>
+            <meta charset="utf-8">
+            
+            <title>Core Interaction</title>
+            <link rel="stylesheet" href="/css/main.css">
+            <link rel="icon" href="/assets/favicon.png">
+            <script src="/js/main.js"></script>
+               
+            </head>
+            <body class="container-fluid layout--home">
+            <div class="sidebar">
+            <header class="header">
+            <nav class="nav">
+            <ul class="list--blank">
+                     
+            </ul>
+            </nav>
+            </header>
+            <footer class="footer">
+            <ul class="list--blank">
+                
+            </ul>
+            </footer>
+            </div>
+             <div class="content">
+                 
+             </div>
+            </body>
+            </html>
+            
+          </pre>
+        </div>
+        <div id="analysis--text">
+            <p>The code starts with <!DOCTYPE html> which lets the computer know what kind of code it's looking at. The main part of the code is inside <html class="html--home"> and that's where all the content for the website goes.
+            The code also has a <head> section which has important information about the website, like the title of the page and what the website is about. There are also links to other files that help the website look the way it does, like CSS and JavaScript files.
+            The <body> section has the actual content for the website, like the text and pictures. The content is divided into two parts, a sidebar and main content. The sidebar has links to different pages and the main content has a graphic. The footer section has information about the website's creators.
+            In short, this code makes a simple website with a sidebar, header, footer, and links to other pages.
+        </p>
+        </div>
+      </div>
+    </section>
+    <section id="analysis--questions">
+      <h2>Questions</h2>
+      <ul>
+        <li>
+            I don't understand any of the JS part of the script 
+        </li>
+        <li>
+            What is ' <meta http-equiv="X-UA-Compatible" content="IE=edge">'. Have seen it fo rthe first time in a code
+        </li>
+        <li>
+            I fully uunderstand the html part of the code butt css seems to be an issue because of the way it's been attached which makes it illegable 
+        </li>
+      </ul>
+    </section>
+  </body>
+</html>
