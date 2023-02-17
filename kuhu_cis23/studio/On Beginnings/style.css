@@ -1,0 +1,45 @@
+img {
+    width: 230px;
+    height: 230px;
+    /* margin-left: 84px; */
+    display: inline-block;
+    vertical-align: top;
+    filter: grayscale(100%); 
+    transition: all 0.3s ease-in-out; 
+}
+
+img:hover {
+    filter: grayscale(0%); 
+}
+
+ body {
+     /* display: flex;
+     justify-content: center; */
+     font-family: 'Bebas Neue', sans-serif;
+   }
+  
+  /* section:nth-of-type(2) {
+    text-align: center;
+    margin-left: auto;
+    width: 50%;
+    padding-top: 40vh;
+  } */
+
+  h1{
+    font-size: 170px;
+    margin: -20px;
+    line-height:.9;
+    text-align: left;
+    }
+
+    .mainWrapper {
+      display:flex;
+    }
+
+    .textWrapper {
+      width:70%;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      height:100vh;
+    }
