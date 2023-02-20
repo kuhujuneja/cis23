@@ -1,7 +1,16 @@
+body {
+  font-family: 'Cormorant', serif;
+   margin: 0;
+  }
+   
+.mainWrapper {
+  display: flex;
+  flex-direction: column; }
+
 img{
   width: 250px;
-  height: 250px;
-  display: inline-block;
+  height:auto;
+  /* display: inline-block; */
   vertical-align: top;
   margin: 0 auto;
   filter: grayscale(100%); 
@@ -15,39 +24,27 @@ img{
 img.image:hover {
   filter: grayscale(0%); 
 }
-
-
-
- body {
-     font-family: 'Cormorant', serif;
-      margin: 0;
-   }
   
-
-
   h1{
-    font-size: 12vw;
+    font-size:150px;
     line-height:.75;
     text-align: left;
     color: #333131;
-    padding-top: 10vh;
+    padding-top: 5vh;
     }
 
     p{
-      position: fixed;
-      font-size:  3.5vw;
+      /* position: fixed; */
+      font-size:40px;
       line-height: 1.2;
       color: #333131;
-      text-align: left;
-      
+      padding-top: 5vh;
+      /* text-align: left;  */
      }
 
-    .mainWrapper {
-      display: flex;
-      flex-direction: column; }
     
     .textWrapper {
-      position: fixed;
+      position:fixed;
       align-items: left;
       justify-content: left;
       margin-top: 5vh;
@@ -55,9 +52,16 @@ img.image:hover {
       padding-left: 20vw;
     }
 
-   
+   span.reading-text {
+      padding-top: 48vh;
+      display: block;
+      font-size: 24px;
+      width: 700px;
+      line-height: 1.1;
+      margin: 0 auto;
+   }
 
-    @media only screen and (min-width: 768px) {
+    /* @media only screen and (min-width: 768px) {
       img {
         width: 250px;
         height: 250px;
@@ -73,9 +77,9 @@ img.image:hover {
       .textWrapper {
         margin: 0;
       }
-    }
+    } */
     
-    @media only screen and (min-width: 1024px) {
+    /* @media only screen and (min-width: 1024px) {
       p {
         font-size: 2.5vw;
       }
@@ -83,4 +87,4 @@ img.image:hover {
       h1 {
         font-size: 8vw;
       }
-    }
+    } */
