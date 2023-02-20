@@ -26,3 +26,19 @@ function updateStyles(event) {
     // first it be deactivated like the rest of the buttons
     event.target.classList.add('activate-color');
 }
+
+// Get the text element
+const textElement = document.querySelector('section.textWrapper p');
+
+// Get all of the clickable images
+const images = document.querySelectorAll('img.clickable');
+
+// Add a click event listener to each image
+images.forEach(image => {
+  image.addEventListener('click', () => {
+    // Set the grayscale to 0%
+    image.style.filter = 'grayscale(0%)';
+    // Set the text to the new text
+    textElement.innerHTML = 'New text to display';
+  });
+});
