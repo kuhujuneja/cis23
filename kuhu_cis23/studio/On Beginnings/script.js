@@ -26,7 +26,6 @@ function updateStyles(event) {
     // first it be deactivated like the rest of the buttons
     event.target.classList.add('activate-color');
 
-
   var textElement = document.getElementById("text");
 
   if (event.target.id === "img1") {

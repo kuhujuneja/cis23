@@ -49,7 +49,7 @@ p{
   justify-content: left;
   margin-top: 5vh;
   margin-bottom: 10vh;
-  padding-left: 20vw;
+  padding-left: 25vw;
   }
 
 span.reading-text {
@@ -60,33 +60,73 @@ span.reading-text {
   line-height: 1;
   margin: 0 auto;
   }
+  
+svg {
+    display: none;
+  }
 
 
 
-    /* @media only screen and (min-width: 768px) {
-      img {
-        width: 250px;
-        height: 250px;
-        display: inline-block;
-        vertical-align: top;
-      }
+ @media only screen and (max-width: 1024px) {
+  img{
+    width: 20vw;}
+
+  h1{
+      font-size:10vw;}
+
+  p{
+    font-size:2vw
+  }
+  
+span.reading-text {
+    font-size: 2vw;
+  }
+  .textWrapper {
+    padding-left: 30vw;
+  }
+
+
+ }
+
+ @media only screen and (max-width: 769px) {
+  img{
+    width: 24vw;}
+
+  h1{
+      font-size:12vw;}
+
+  p{
+    font-size:3vw
+  }
+  
+span.reading-text {
+    font-size: 3vw;
+  }
+  
+.textWrapper {
+    padding-left: 34vw;
+  }
+
+ }
+
+ @media only screen and (max-width: 425px) {
+  img{
+    width: 28vw;}
+
+  h1{
+      font-size:15vw;}
+
+  p{
+    font-size:4vw
+  }
+  
+span.reading-text {
+    font-size: 4vw;
+  }
+  
+.textWrapper {
+    padding-left: 34vw;
+  }
+
+ }
     
-      .mainWrapper {
-        flex-direction: row;
-        align-items: flex-start;
-      }
-    
-      .textWrapper {
-        margin: 0;
-      }
-    } */
-    
-    /* @media only screen and (min-width: 1024px) {
-      p {
-        font-size: 2.5vw;
-      }
-    
-      h1 {
-        font-size: 8vw;
-      }
-    } */
