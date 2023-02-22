@@ -101,6 +101,7 @@ span.reading-text {
   
 span.reading-text {
     font-size: 3vw;
+    padding-top: 35vh;
   }
   
 .textWrapper {
@@ -122,10 +123,11 @@ span.reading-text {
   
 span.reading-text {
     font-size: 4vw;
+    padding-top: 32vh;
   }
   
 .textWrapper {
-    padding-left: 34vw;
+    padding-left: 32vw;
   }
 
  }
