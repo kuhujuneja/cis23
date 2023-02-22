@@ -115,15 +115,15 @@ span.reading-text {
     width: 28vw;}
 
   h1{
-      font-size:15vw;}
+      font-size:13vw;}
 
   p{
     font-size:4vw
   }
   
 span.reading-text {
-    font-size: 4vw;
-    padding-top: 3zvh;
+    font-size: 3vw;
+    padding-top: 32vh;
   }
   
 .textWrapper {
