@@ -67,7 +67,7 @@ svg {
 
 .handwriting1{
   width: 25vw;
-  transform: rotate(-10deg);
+  transform: rotate(3deg);
   opacity: 0.8;
 }
 .handwriting2{
@@ -81,7 +81,7 @@ svg {
 }
 .handwriting4{
   width: 25vw;
-  transform: rotate(4deg);
+  transform: rotate(2deg);
   opacity: 0.8;
 }
 .handwriting5{
@@ -91,7 +91,6 @@ svg {
 }
 .handwriting6{
   width: 25vw;
-  transform: rotate(5deg);
   opacity: 0.8;
 }
 
@@ -121,7 +120,7 @@ svg {
 
 .handwriting10{
   width: 25vw;
-  transform: rotate(5.5deg);
+  transform: rotate(2deg);
   opacity: 0.8;
 }
 
@@ -133,7 +132,7 @@ svg {
 
 .handwriting12{
   width: 25vw;
-  transform: rotate(7deg);
+  transform: rotate(2deg);
   opacity: 0.8;
 }
 
@@ -181,7 +180,7 @@ svg {
 
 .handwriting20{
   width: 25vw;
-  transform: rotate(6deg);
+  transform: rotate(2deg);
   opacity: 0.8;
 }
 
@@ -193,7 +192,7 @@ svg {
 
 .handwriting22{
   width: 25vw;
-  transform: rotate(20deg);
+  transform: rotate(4deg);
   opacity: 0.8;
 }
 
@@ -205,7 +204,7 @@ svg {
 
 .handwriting24{
   width: 25vw;
-  transform: rotate(-9deg);
+  transform: rotate(-4deg);
   opacity: 0.8;
 }
 
@@ -291,7 +290,7 @@ span.reading-text {
     width: 30vw;
   }
   .handwriting17{
-    width: 25vw;
+    width: 30vw;
   }
   .handwriting18{
     width: 30vw;
@@ -323,7 +322,6 @@ span.reading-text {
   .handwriting27{
     width: 30vw;
   }
-
  }
 
  @media only screen and (max-width: 769px) {
@@ -336,17 +334,94 @@ span.reading-text {
   p{
     font-size:3vw
   }
-  
 span.reading-text {
     font-size: 3vw;
 
   }
-  
 .textWrapper {
     padding-left: 34vw;
   }
-
- }
+  .handwriting1{
+    width: 35vw;
+  }
+  .handwriting2{
+    width: 35vw;
+  }
+  .handwriting3{
+    width: 35vw;
+  }
+  .handwriting4{
+    width: 35vw;
+  }
+  .handwriting5{
+    width: 35vw;
+  }
+  .handwriting6{
+    width: 35vw;
+  }
+  .handwriting7{
+    width: 35vw;
+  }
+  .handwriting8{
+    width: 35vw;
+  }
+  .handwriting9{
+    width: 35vw;
+  }
+  .handwriting10{
+    width: 35vw;
+  }
+  .handwriting11{
+    width: 35vw;
+  }
+  .handwriting12{
+    width: 35vw;
+  }
+  .handwriting13{
+    width: 35vw;
+  }
+  .handwriting14{
+    width: 35vw;
+  }
+  .handwriting15{
+    width: 35vw;
+  }
+  .handwriting16{
+    width: 35vw;
+  }
+  .handwriting17{
+    width: 35vw;
+  }
+  .handwriting18{
+    width: 35vw;
+  }
+  .handwriting19{
+    width: 35vw;
+  }
+  .handwriting20{
+    width: 35vw;
+  }
+  .handwriting21{
+    width: 35vw;
+  }
+  .handwriting22{
+    width: 35vw;
+  }
+  .handwriting23{
+    width: 35vw;
+  }
+  .handwriting24{
+    width: 35vw;
+  }
+  .handwriting25{
+    width: 35vw;
+  }
+  .handwriting26{
+    width: 35vw;
+  }
+  .handwriting27{
+    width: 35vw;
+ }}
 
  @media only screen and (max-width: 425px) {
   img{
@@ -389,6 +464,84 @@ span.reading-text {
 .textWrapper {
     padding-left: 29vw;
   }
-
- }
-    
+  .handwriting1{
+    width: 40vw;
+  }
+  .handwriting2{
+    width: 40vw;
+  }
+  .handwriting3{
+    width: 40vw;
+  }
+  .handwriting4{
+    width: 40vw;
+  }
+  .handwriting5{
+    width: 40vw;
+  }
+  .handwriting6{
+    width: 40vw;
+  }
+  .handwriting7{
+    width: 40vw;
+  }
+  .handwriting8{
+    width: 40vw;
+  }
+  .handwriting9{
+    width: 40vw;
+  }
+  .handwriting10{
+    width: 40vw;
+  }
+  .handwriting11{
+    width: 40vw;
+  }
+  .handwriting12{
+    width: 40vw;
+  }
+  .handwriting13{
+    width: 40vw;
+  }
+  .handwriting14{
+    width: 40vw;
+  }
+  .handwriting15{
+    width: 40vw;
+  }
+  .handwriting16{
+    width: 40vw;
+  }
+  .handwriting17{
+    width: 40vw;
+  }
+  .handwriting18{
+    width: 40vw;
+  }
+  .handwriting19{
+    width: 40vw;
+  }
+  .handwriting20{
+    width: 40vw;
+  }
+  .handwriting21{
+    width: 40vw;
+  }
+  .handwriting22{
+    width: 40vw;
+  }
+  .handwriting23{
+    width: 40vw;
+  }
+  .handwriting24{
+    width: 40vw;
+  }
+  .handwriting25{
+    width: 40vw;
+  }
+  .handwriting26{
+    width: 40vw;
+  }
+  .handwriting27{
+    width:40vw;
+ }}
