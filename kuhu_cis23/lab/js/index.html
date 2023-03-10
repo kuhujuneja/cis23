@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="OuLiPo-inspired poem generator">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+  </head>
+  <style>
+    body {
+      font-family: "Helvetica Neue", sans-serif;
+      background-color: #F4F4F4;
+      color: #555;
+      text-align: center;
+      line-height: 1.5;
+      padding-top: 50px;
+    }
+    h1 {
+      font-size: 36px;
+      font-weight: normal;
+      margin-bottom: 20px;
+    }
+    p {
+      margin-bottom: 30px;
+    }
+    button {
+      background-color: #555;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    button:hover {
+      background-color: #333;
+    }
+  </style>
+  <script>
+    function refreshPage(){
+      window.location.reload();
+    } 
+
+    // Declare an array of past participles
+    let pastVerbs = ['slept', 'laughed', 'cried', 'smiled', 'sighed'];
+
+    // Initialize a variable with a randomly chosen past participle
+    let pastVerb = pastVerbs[Math.floor(Math.random() * pastVerbs.length)];
+
+    // Declare an array of nouns
+    let nouns = ['chair', 'flower', 'book', 'cup', 'table'];
+
+    // Initialize three variables with randomly chosen nouns
+    let noun1 = nouns[Math.floor(Math.random() * nouns.length)];
+    let noun2 = nouns[Math.floor(Math.random() * nouns.length)];
+    let noun3 = nouns[Math.floor(Math.random() * nouns.length)];
+
+    // Declare an array of adjectives
+    let adjectives = ['bright', 'calm', 'happy', 'silly', 'wild'];
+
+    // Initialize three variables with randomly chosen adjectives
+    let adj1 = adjectives[Math.floor(Math.random() * adjectives.length)];
+    let adj2 = adjectives[Math.floor(Math.random() * adjectives.length)];
+    let adj3 = adjectives[Math.floor(Math.random() * adjectives.length)];
+
+    // Generate a poem using the initialized variables
+    var poem = `
+      I have ${pastVerb}
+      the ${noun1}
+      that were in
+      the ${noun2}
+
+      and which
+      you were probably
+      saving
+      for the ${noun3}
+
+      Forgive me
+      they were ${adj1}
+      so ${adj2}
+      and so ${adj3}
+    `;
+
+    // Output the poem to the console and to the web page
+    console.log(poem);
+    document.write(poem);
+
+    // The original poem for reference
+    const poemOriginal = `
+      I have eaten
+      the plums
+      that were in
+      the icebox
+
+      and which
+      you were probably
+      saving
+      for breakfast
+
+      Forgive me
+      they were delicious
+      so sweet
+      and so cold
+    `;
+  </script>
+  <body>
+    <button type="submit" onClick="refreshPage()">Click to Generate Another Poem</button>
+  </body>
+</html>
