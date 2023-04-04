@@ -13,6 +13,11 @@ body {
     flex-direction: column;
 }
 
+p{
+    font-size: 3vw;  
+    padding: 2em;
+}
+
 .Spicy{
     margin-left: 3vw;
 }
@@ -20,7 +25,7 @@ body {
 .Sheila {
     margin-left:3vw;
     text-align: left;
-    padding-top:20vw
+    padding-top:20vw;
 }
 
 .Munni {
