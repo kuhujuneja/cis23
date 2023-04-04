@@ -12,8 +12,7 @@ body {
 .word {
     margin: auto;
     font-family: 'Signika', sans-serif;
-    font-size: 100px;
-    line-height: 79px;
+    font-size: 8vw;
     color: #F9FE00;
 }
 
