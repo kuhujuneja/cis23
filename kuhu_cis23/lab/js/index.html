@@ -31,7 +31,6 @@
       border: none;
       padding: 10px 20px;
       font-size: 16px;
-      cursor: pointer;
       transition: background-color 0.3s;
     }
     button:hover {
@@ -43,67 +42,67 @@
       window.location.reload();
     } 
 
-    // Declare an array of past participles
-    let pastVerbs = ['slept', 'laughed', 'cried', 'smiled', 'sighed'];
+ // Declare an array of past participles
+let pastVerbs = ['slept', 'laughed', 'cried', 'smiled', 'sighed'];
 
-    // Initialize a variable with a randomly chosen past participle
-    let pastVerb = pastVerbs[Math.floor(Math.random() * pastVerbs.length)];
+// Initialize a variable with a randomly chosen past participle
+let pastVerb = pastVerbs[Math.floor(Math.random() * pastVerbs.length)];
 
-    // Declare an array of nouns
-    let nouns = ['chair', 'flower', 'book', 'cup', 'table'];
+// Declare an array of nouns
+let nouns = ['chair', 'flower', 'book', 'cup', 'table'];
 
-    // Initialize three variables with randomly chosen nouns
-    let noun1 = nouns[Math.floor(Math.random() * nouns.length)];
-    let noun2 = nouns[Math.floor(Math.random() * nouns.length)];
-    let noun3 = nouns[Math.floor(Math.random() * nouns.length)];
+// Initialize three variables with randomly chosen nouns
+let noun1 = nouns[Math.floor(Math.random() * nouns.length)];
+let noun2 = nouns[Math.floor(Math.random() * nouns.length)];
+let noun3 = nouns[Math.floor(Math.random() * nouns.length)];
 
-    // Declare an array of adjectives
-    let adjectives = ['bright', 'calm', 'happy', 'silly', 'wild'];
+// Declare an array of adjectives
+let adjectives = ['bright', 'calm', 'happy', 'silly', 'wild'];
 
-    // Initialize three variables with randomly chosen adjectives
-    let adj1 = adjectives[Math.floor(Math.random() * adjectives.length)];
-    let adj2 = adjectives[Math.floor(Math.random() * adjectives.length)];
-    let adj3 = adjectives[Math.floor(Math.random() * adjectives.length)];
+// Initialize three variables with randomly chosen adjectives
+let adj1 = adjectives[Math.floor(Math.random() * adjectives.length)];
+let adj2 = adjectives[Math.floor(Math.random() * adjectives.length)];
+let adj3 = adjectives[Math.floor(Math.random() * adjectives.length)];
 
-    // Generate a poem using the initialized variables
-    var poem = `
-      I have ${pastVerb}
-      the ${noun1}
-      that were in
-      the ${noun2}
+// Generate a poem using the initialized variables
+var poem = `
+  I have ${pastVerb}
+  the ${noun1}
+  that were in
+  the ${noun2}
 
-      and which
-      you were probably
-      saving
-      for the ${noun3}
+  and which
+  you were probably
+  saving
+  for the ${noun3}
 
-      Forgive me
-      they were ${adj1}
-      so ${adj2}
-      and so ${adj3}
-    `;
+  Forgive me
+  they were ${adj1}
+  so ${adj2}
+  and so ${adj3}
+`;
 
-    // Output the poem to the console and to the web page
-    console.log(poem);
-    document.write(poem);
+// Output the poem to the console and to the web page
+console.log(poem);
+document.write(poem);
 
-    // The original poem for reference
-    const poemOriginal = `
-      I have eaten
-      the plums
-      that were in
-      the icebox
+// The original poem for reference
+const poemOriginal = `
+  I have eaten
+  the plums
+  that were in
+  the icebox
 
-      and which
-      you were probably
-      saving
-      for breakfast
+  and which
+  you were probably
+  saving
+  for breakfast
 
-      Forgive me
-      they were delicious
-      so sweet
-      and so cold
-    `;
+  Forgive me
+  they were delicious
+  so sweet
+  and so cold
+`;
   </script>
   <body>
     <button type="submit" onClick="refreshPage()">Click to Generate Another Poem</button>
