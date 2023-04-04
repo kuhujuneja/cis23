@@ -4,29 +4,35 @@ html {
 
 body {
     background-color: rgba(238, 0, 171, 1);
-    color: #F9FE00;
-    display: flex;
-    height: 100%;
-}
-  
-.word {
-    margin: auto;
     font-family: 'Signika', sans-serif;
-    font-size: 100px;
-    line-height: 79px;
-    color: #F9FE00;
+    font-weight:400;
+    font-size: 4vw;
+    color: #F9FE00; 
+    padding-top: 20vw;
 }
 
-.word span {
-    display: none;
-  }
-  
-.word span.italics {
-    font-style: italic;
+
+.Sheila {
+    margin-left:3vw;
+    text-align: left;
+    padding-top:20vw
 }
 
-.word span.naacho:hover {
-    cursor: pointer;
-
+.Munni {
+    margin-left: 9vw;
+    text-align: left;
+    padding-top:6vw;
 }
-   
+
+.Laila {
+    margin-left: 15vw;
+    text-align: left;
+    padding-top:6vw;
+}
+
+.woman {
+    margin-left: 3vw;
+    text-align: left;
+    padding-top:30vw;
+    padding-bottom: 30vw;
+}
