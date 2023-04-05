@@ -8,6 +8,14 @@ body {
     display: flex;
     height: 100%;
 }
+ 
+#home-link {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    color: #F9FE00;
+  }
   
 .word {
     margin: auto;
