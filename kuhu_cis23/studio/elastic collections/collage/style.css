@@ -67,6 +67,11 @@ h2{
   animation: gif-loop 2s infinite;
 }
 
+a{
+  color: #F9FE00;
+  text-decoration: none;
+}
+
 .overlay {
   position: absolute;
   top: 0;
