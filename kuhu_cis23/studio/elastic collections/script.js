@@ -27,9 +27,11 @@ $(document).ready(function () {
   $('.word').hover(
     function() {
       $('.word').html(words[0].replace("Naacho", "<u>Dance</u>"));
+      $('body').css('background-color', '#F9FE00');
     },
     function() {
       $('.word').html(words[0]);
+      $('body').css('background-color', 'rgba(238, 0, 171, 1)');
     }
   );
 });

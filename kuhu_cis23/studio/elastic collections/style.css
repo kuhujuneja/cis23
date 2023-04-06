@@ -23,6 +23,9 @@ body {
     font-size: 8vw;
     color: #F9FE00;
 }
+.word:hover {
+  color: rgba(238, 0, 171, 1);;
+}
 
 .word span {
     display: none;
