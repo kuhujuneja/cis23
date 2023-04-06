@@ -43,7 +43,7 @@ body {
 }
 
 .woman {
-    margin-left: 3vw;
+    margin:auto;
     text-align: left;
     padding-top:30vw;
     padding-bottom: 30vw;
@@ -54,26 +54,19 @@ body {
     width:40vw
 }
 
-.collage{
+.collage {
+    position: relative;
     width: 100vw;
-    margin:0
-}
-
-.collage a {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #F9FE00;
-    color: #2380D1;
-    text-decoration: none;
-    border-radius: 5px;
+    margin: 0;
+  }
+  a {
     font-size: 24px;
+    color: #F9FE00;
+    text-decoration: none;
+    margin:auto;
   }
   
-  .collage a:hover {
-    background-color: #2380D1;
-    color: #F9FE00;
+  a:hover {
+    color: #ffffff;
   }
+  
