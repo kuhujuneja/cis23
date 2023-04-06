@@ -19,3 +19,8 @@ buttons.forEach(function(button) {
     });
   })
 });
+
+$('.button').click(function() {
+  $('.button').removeClass('active');  
+  $(this).addClass('active');  
+});

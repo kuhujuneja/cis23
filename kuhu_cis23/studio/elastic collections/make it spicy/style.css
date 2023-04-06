@@ -60,13 +60,42 @@ body {
     margin: 0;
   }
   a {
-    font-size: 24px;
+    font-size: 4vw;
     color: #F9FE00;
     text-decoration: none;
     margin:auto;
+    padding-top:5vw;
   }
   
   a:hover {
     color: #ffffff;
   }
+  @media only screen and (max-width: 600px) {
+    body {
+      font-size: 3vw;
+    }
+    
+    #home-link {
+      font-size: 3vw;
+    }
+    
+    .spotify {
+      width: 50vw;
+      max-width: 600px;
+    }
+  }
   
+  @media only screen and (max-width: 900px) {
+    body {
+      font-size: 2vw;
+    }
+    
+    #home-link {
+      font-size: 2vw;
+    }
+    
+    .spotify {
+      width: 30vw;
+      max-width: 800px;
+    }
+  }

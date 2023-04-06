@@ -37,3 +37,14 @@ body {
 
 }
    
+@media only screen and (max-width: 600px) { 
+    #home-link {
+      top: 10px;
+      right: 10px;
+      font-size: 3vw;
+    }
+  
+    .word {
+      font-size: 16vw;
+    }
+  }
