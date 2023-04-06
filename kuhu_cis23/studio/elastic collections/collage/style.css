@@ -17,6 +17,25 @@ h2{
   color: #F9FE00;
 }
 
+.button {
+  display: inline-block;
+  background-color: rgba(238, 0, 171, 1);
+  color: #000000;
+  padding: 10px 20px;
+  margin-right: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1.5px solid black;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.button.selected {
+  background-color: #F9FE00;
+  color:rgba(238, 0, 171, 1);
+}
+
 
 .grid {
   display: grid;
