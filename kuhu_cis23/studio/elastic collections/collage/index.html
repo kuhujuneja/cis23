@@ -7,7 +7,7 @@
     <link href="assets/reset.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css" />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="script.js"></script>
+    <script defer src="script.js"></script>
     <script defer src="assets/collection.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,15 +20,13 @@
       <a id="home-link" href="https://kuhujuneja.github.io/kuhu_cis23/studio/elastic%20collections/index.html"><i class="fas fa-home"></i></a>
       </header>
       <div style="text-align: center";>
-        <h2 class="button" onclick="toggleButton(this)">Objectification</h2>
-        <h2 class="button"onclick="toggleButton(this)">Criticized</h2>
-        <h2 class="button"onclick="toggleButton(this)">Somewhat empowering?</h2>
-        <h2 class="button" onclick="toggleButton(this)">Songs that were more successful than the films</h2>
+        <h2 data-value='all' class="button" >Objectification</h2>
+        <h2 data-value='criticized' class="button">Criticized</h2>
+        <h2 data-value='empowering' class="button">Somewhat empowering?</h2>
+        <h2 data-value='successful' class="button">Songs that were more successful than the films</h2>
       </div>
         <div class="grid">
-          <!-- automate these blocks. Only display when a js condition is met (ie you've selected "show all" or the page has been reloaded) -->
-          <!-- You can make this a dynamic page -->
-          <div class="gif-container">
+          <div class="gif-container all " >
             <img class="gif" src="kajra re.gif" alt="GIF 1">
             <div class="overlay">
               <div class="overlay-content">
@@ -38,7 +36,7 @@
             </div>
           </div>
 
-          <div class="gif-container">
+          <div class="gif-container all successful ">
             <img class="gif" src="ek do teen.gif" alt="GIF 2">
             <div class="overlay">
               <div class="overlay-content">
@@ -47,7 +45,7 @@
               </div>
             </div>
           </div>
-          <div class="gif-container">
+          <div class="gif-container all criticized">
             <img class="gif" src="fevicol segif.gif" alt="GIF 3">
             <div class="overlay">
               <div class="overlay-content">
@@ -56,7 +54,7 @@
               </div>
             </div>
           </div>
-          <div class="gif-container">
+          <div class="gif-container all successful">
             <img class="gif" src="chaiya chaiya.gif" alt="GIF 4">
             <div class="overlay">
               <div class="overlay-content">
@@ -65,7 +63,7 @@
               </div>
             </div>
           </div>
-          <div class="gif-container">
+          <div class="gif-container all criticized">
             <img class="gif" src="chikni chameli.gif" alt="GIF 5">
             <div class="overlay">
               <div class="overlay-content">
@@ -74,7 +72,7 @@
               </div>
             </div>
           </div>
-          <div class="gif-container">
+          <div class="gif-container all criticized">
             <img class="gif" src="mera naam mary.gif" alt="GIF 6">
             <div class="overlay">
               <div class="overlay-content">
@@ -83,7 +81,7 @@
               </div>
             </div>
           </div>
-          <div class="gif-container">
+          <div class="gif-container all criticized empowering successful">
             <img class="gif" src="sheila ki jawani.gif" alt="GIF 7">
             <div class="overlay">
               <div class="overlay-content">
@@ -92,7 +90,7 @@
               </div>
             </div>
           </div>
-          <div class="gif-container">
+          <div class="gif-container all successful">
             <img class="gif" src="tip tip barsa paani.gif" alt="GIF 8">
             <div class="overlay">
               <div class="overlay-content">
@@ -101,7 +99,7 @@
               </div>
             </div>
           </div>
-          <div class="gif-container">
+          <div class="gif-container all criticized empowering successful">
             <img class="gif" src="laila mein laila.gif" alt="GIF 9">
             <div class="overlay">
               <div class="overlay-content">
@@ -110,7 +108,7 @@
               </div>
             </div>
           </div>
-          <div class="gif-container">
+          <div class="gif-container all">
             <img class="gif" src="chamma chamma.gif" alt="GIF 10">
             <div class="overlay">
               <div class="overlay-content">
@@ -119,7 +117,7 @@
               </div>
             </div>
           </div>
-          <div class="gif-container">
+          <div class="gif-container all">
             <img class="gif" src="mera naam chin chin chu.gif"alt="GIF 11">
             <div class="overlay">
               <div class="overlay-content">
@@ -128,7 +126,7 @@
               </div>
             </div>
           </div>
-          <div class="gif-container">
+          <div class="gif-container all successful">
             <img class="gif" src="jumma chumma de de.gif" alt="GIF 12">
             <div class="overlay">
               <div class="overlay-content">
@@ -137,7 +135,7 @@
               </div>
             </div>
           </div>
-          <div class="gif-container">
+          <div class="gif-container all criticized successful">
             <img class="gif" src="choli ke peeche kya he.gif" alt="GIF 13">
             <div class="overlay">
               <div class="overlay-content">
@@ -146,7 +144,7 @@
               </div>
             </div>
           </div>
-          <div class="gif-container">
+          <div class="gif-container all criticized successful">
             <img class="gif" src="munni badnam hui.gif" alt="GIF 14">
             <div class="overlay">
               <div class="overlay-content">
@@ -155,7 +153,7 @@
               </div>
             </div>
           </div>
-          <div class="gif-container">
+          <div class="gif-container all">
             <img class="gif" src="anarkali disco chali.gif" alt="GIF 15">
             <div class="overlay">
               <div class="overlay-content">
@@ -164,7 +162,7 @@
               </div>
             </div>
           </div>
-          <div class="gif-container">
+          <div class="gif-container all successful">
             <img class="gif" src="dhating naach.gif" alt="GIF 16">
             <div class="overlay">
               <div class="overlay-content">
@@ -173,7 +171,7 @@
               </div>
             </div>
           </div>
-          <div class="gif-container">
+          <div class="gif-container all criticized">
             <img class="gif" src="baby doll.gif" alt="GIF 17">
             <div class="overlay">
               <div class="overlay-content">
@@ -182,7 +180,7 @@
               </div>
             </div>
           </div>
-          <div class="gif-container">
+          <div class="gif-container all criticized">
             <img class="gif" src="aao raja.gif" alt="GIF 18">
             <div class="overlay">
               <div class="overlay-content">
@@ -192,7 +190,7 @@
             </div>
           </div>
 
-          <div class="gif-container">
+          <div class="gif-container all">
             <img class="gif" src="yaar na miley.gif" alt="GIF 19">
             <div class="overlay">
               <div class="overlay-content">
@@ -202,7 +200,7 @@
             </div>
           </div>
 
-          <div class="gif-container">
+          <div class="gif-container all criticized">
             <img class="gif" src="beedi jalai le.gif" alt="GIF 20">
             <div class="overlay">
               <div class="overlay-content">
@@ -212,7 +210,7 @@
             </div>
           </div>
 
-          <div class="gif-container">
+          <div class="gif-container all">
             <img class="gif" src="lovely.gif" alt="GIF 21">
             <div class="overlay">
               <div class="overlay-content">
@@ -221,7 +219,7 @@
               </div>
             </div>
           </div>
-          <div class="gif-container">
+          <div class="gif-container all criticized successful">
             <img class="gif" src="ooh la la.gif" alt="GIF 22">
             <div class="overlay">
               <div class="overlay-content">
@@ -230,7 +228,7 @@
               </div>
             </div>
           </div>
-          <div class="gif-container">
+          <div class="gif-container all">
             <img class="gif" src="aap jaisa koi.gif" alt="GIF 23">
             <div class="overlay">
               <div class="overlay-content">
@@ -239,7 +237,7 @@
               </div>
             </div>
           </div>
-          <div class="gif-container">
+          <div class="gif-container all criticized successful">
             <img class="gif" src="kamariya.gif" alt="GIF 24">
             <div class="overlay">
               <div class="overlay-content">
@@ -248,7 +246,7 @@
               </div>
             </div>
           </div>
-          <div class="gif-container">
+          <div class="gif-container all">
             <img class="gif" src="nachan faratte.gif" alt="GIF 25">
             <div class="overlay">
               <div class="overlay-content">
@@ -257,7 +255,7 @@
               </div>
             </div>
           </div>
-          <div class="gif-container">
+          <div class="gif-container all">
             <img class="gif" src="manike.gif" alt="GIF 26">
             <div class="overlay">
               <div class="overlay-content">
@@ -266,7 +264,7 @@
               </div>
             </div>
           </div>
-          <div class="gif-container">
+          <div class="gif-container all criticized successful">
             <img class="gif" src="zara zara touch me .gif" alt="GIF 27">
             <div class="overlay">
               <div class="overlay-content">
@@ -275,7 +273,7 @@
               </div>
             </div>
           </div>
-          <div class="gif-container">
+          <div class="gif-container all criticized">
             <img class="gif" src="mein aai hu up bihar lootne.gif" alt="GIF 28">
             <div class="overlay">
               <div class="overlay-content">
@@ -284,7 +282,7 @@
               </div>
             </div>
           </div>
-          <div class="gif-container">
+          <div class="gif-container all successful">
             <img class="gif" src="lazy lamhe.gif" alt="GIF 29">
             <div class="overlay">
               <div class="overlay-content">
@@ -293,7 +291,7 @@
               </div>
             </div>
           </div>
-          <div class="gif-container">
+          <div class="gif-container all empowering">
             <img class="gif" src="dhoom machale.gif" alt="GIF 30">
             <div class="overlay">
               <div class="overlay-content">
