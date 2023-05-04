@@ -1,0 +1,302 @@
+[
+ {
+   "Decade": 1950,
+   "Total": "7891957",
+   "Borough": "All"
+ },
+ {
+   "Decade": 1950,
+   "Total": "1451277",
+   "Borough": "Bronx"
+ },
+ {
+   "Decade": 1950,
+   "Total": "2738175",
+   "Borough": "Brooklyn"
+ },
+ {
+   "Decade": 1950,
+   "Total": "1960101",
+   "Borough": "Manhattan"
+ },
+ {
+   "Decade": 1950,
+   "Total": "1550849",
+   "Borough": "Queens"
+ },
+ {
+   "Decade": 1950,
+   "Total": "191555",
+   "Borough": "Staten Island"
+ },
+ {
+   "Decade": 1960,
+   "Total": "7,781,984",
+   "Borough": "All"
+ },
+ {
+   "Decade": 1960,
+   "Total": "1,471,701",
+   "Borough": "Bronx"
+ },
+ {
+   "Decade": 1960,
+   "Total": "2,602,012",
+   "Borough": "Brooklyn"
+ },
+ {
+   "Decade": 1960,
+   "Total": "1,539,233",
+   "Borough": "Manhattan"
+ },
+ {
+   "Decade": 1960,
+   "Total": "1,986,473",
+   "Borough": "Queens"
+ },
+ {
+   "Decade": 1960,
+   "Total": "295,443",
+   "Borough": "Staten Island"
+ },
+ {
+   "Decade": 1970,
+   "Total": "7,894,862",
+   "Borough": "All"
+ },
+ {
+   "Decade": 1970,
+   "Total": "1,471,701",
+   "Borough": "Bronx"
+ },
+ {
+   "Decade": 1970,
+   "Total": "2,602,012",
+   "Borough": "Brooklyn"
+ },
+ {
+   "Decade": 1970,
+   "Total": "1,539,233",
+   "Borough": "Manhattan"
+ },
+ {
+   "Decade": 1970,
+   "Total": "1,986,473",
+   "Borough": "Queens"
+ },
+ {
+   "Decade": 1970,
+   "Total": "295,443",
+   "Borough": "Staten Island"
+ },
+ {
+   "Decade": 1980,
+   "Total": "7,071,639",
+   "Borough": "All"
+ },
+ {
+   "Decade": 1980,
+   "Total": "1,168,972",
+   "Borough": "Bronx"
+ },
+ {
+   "Decade": 1980,
+   "Total": "2,230,936",
+   "Borough": "Brooklyn"
+ },
+ {
+   "Decade": 1980,
+   "Total": "1,428,285",
+   "Borough": "Manhattan"
+ },
+ {
+   "Decade": 1980,
+   "Total": "1,891,325",
+   "Borough": "Queens"
+ },
+ {
+   "Decade": 1980,
+   "Total": "352,121",
+   "Borough": "Staten Island"
+ },
+ {
+   "Decade": 1990,
+   "Total": "7,322,564",
+   "Borough": "All"
+ },
+ {
+   "Decade": 1990,
+   "Total": "1,203,789",
+   "Borough": "Bronx"
+ },
+ {
+   "Decade": 1990,
+   "Total": "2,300,664",
+   "Borough": "Brooklyn"
+ },
+ {
+   "Decade": 1990,
+   "Total": "1,487,536",
+   "Borough": "Manhattan"
+ },
+ {
+   "Decade": 1990,
+   "Total": "1,951,598",
+   "Borough": "Queens"
+ },
+ {
+   "Decade": 1990,
+   "Total": "378,977",
+   "Borough": "Staten Island"
+ },
+ {
+   "Decade": 2000,
+   "Total": "8,008,278",
+   "Borough": "All"
+ },
+ {
+   "Decade": 2000,
+   "Total": "1,332,650",
+   "Borough": "Bronx"
+ },
+ {
+   "Decade": 2000,
+   "Total": "2,465,326",
+   "Borough": "Brooklyn"
+ },
+ {
+   "Decade": 2000,
+   "Total": "1,537,195",
+   "Borough": "Manhattan"
+ },
+ {
+   "Decade": 2000,
+   "Total": "2,229,379",
+   "Borough": "Queens"
+ },
+ {
+   "Decade": 2000,
+   "Total": "443,728",
+   "Borough": "Staten Island"
+ },
+ {
+   "Decade": 2010,
+   "Total": "8,242,624",
+   "Borough": "All"
+ },
+ {
+   "Decade": 2010,
+   "Total": "1,385,108",
+   "Borough": "Bronx"
+ },
+ {
+   "Decade": 2010,
+   "Total": "2,552,911",
+   "Borough": "Brooklyn"
+ },
+ {
+   "Decade": 2010,
+   "Total": "1,585,873",
+   "Borough": "Manhattan"
+ },
+ {
+   "Decade": 2010,
+   "Total": "2,250,002",
+   "Borough": "Queens"
+ },
+ {
+   "Decade": 2010,
+   "Total": "468,730",
+   "Borough": "Staten Island"
+ },
+ {
+   "Decade": 2020,
+   "Total": "8,550,971",
+   "Borough": "All"
+ },
+ {
+   "Decade": 2020,
+   "Total": "1,446,788",
+   "Borough": "Bronx"
+ },
+ {
+   "Decade": 2020,
+   "Total": "2,648,452",
+   "Borough": "Brooklyn"
+ },
+ {
+   "Decade": 2020,
+   "Total": "1,638,281",
+   "Borough": "Manhattan"
+ },
+ {
+   "Decade": 2020,
+   "Total": "2,330,295",
+   "Borough": "Queens"
+ },
+ {
+   "Decade": 2020,
+   "Total": "487,155",
+   "Borough": "Staten Island"
+ },
+ {
+   "Decade": 2030,
+   "Total": "8,821,027",
+   "Borough": "All"
+ },
+ {
+   "Decade": 2030,
+   "Total": "1,518,998",
+   "Borough": "Bronx"
+ },
+ {
+   "Decade": 2030,
+   "Total": "2,754,009",
+   "Borough": "Brooklyn"
+ },
+ {
+   "Decade": 2030,
+   "Total": "1,676,720",
+   "Borough": "Manhattan"
+ },
+ {
+   "Decade": 2030,
+   "Total": "2,373,551",
+   "Borough": "Queens"
+ },
+ {
+   "Decade": 2030,
+   "Total": "497,749",
+   "Borough": "Staten Island"
+ },
+ {
+   "Decade": 2040,
+   "Total": "9,025,145",
+   "Borough": "All"
+ },
+ {
+   "Decade": 2040,
+   "Total": "1,579,245",
+   "Borough": "Bronx"
+ },
+ {
+   "Decade": 2040,
+   "Total": "2,840,525",
+   "Borough": "Brooklyn"
+ },
+ {
+   "Decade": 2040,
+   "Total": "1,691,617",
+   "Borough": "Manhattan"
+ },
+ {
+   "Decade": 2040,
+   "Total": "2,412,649",
+   "Borough": "Queens"
+ },
+ {
+   "Decade": 2040,
+   "Total": "501,109",
+   "Borough": "Staten Island"
+ }
+]
