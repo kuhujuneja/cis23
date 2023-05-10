@@ -2,31 +2,61 @@ body {
 	font-family: Arial;
 	font-size: 14px;
 	line-height: 1.5;
-	
 	background-color: #222222;
 	color: #ffffff;
-  height: 20000px;
+  height: 78919px;
 }
 
 svg {
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  top: 43%;
+  left: 54%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 72%;
+  height: 72%;
 }
 
-header {
+select {
+  appearance: none;
   position: fixed;
   top: 20px;
   left: 20px;
   z-index: 1;
   padding: 10px;
   font-size: 16px;
-  background: #000000;
+  background: #222222;
   border: 1px solid #FFFFFF;
   border-radius: 27px;
   color: #FFFFFF;
+}
+
+select:focus {
+  outline: none;
+}
+
+#data-container {
+  z-index: 1;
+  display: none;
+}
+
+.Statenisland {
+  fill:#FFA9AA;;
+}
+
+.Bronx {
+  fill: #A93C3D;;
+}
+
+.Brooklyn{
+  fill: #E8696B;
+}
+
+.Manhattan {
+  fill: #EF3A3C;;
+}
+
+.Queens {
+  fill: #B81F20;
 }
 
 footer{
@@ -39,7 +69,6 @@ footer{
   padding: 24px;
 }
 
-
 h1 {
 	font-size: 21px;
 	font-weight: 700;
@@ -47,4 +76,9 @@ h1 {
 
 path {
   transition: fill 0.5s;
+} 
+
+.active{
+  fill:none;
+  stroke:#ffffff
 }
