@@ -17,25 +17,10 @@ $.getJSON("data.json", function(data) {
   });
 });
 
-    
-
-    // for (let i = 0; i < data.length; i++) {
-    //   let borough = data[i];
-    //   let boroughName = borough.Borough;
-    //   let boroughDensity = borough.Total;
-  
-      
-    //   let boroughElement = $("<div>").addClass("borough");
-    //   boroughElement.append($("<h2>").text(boroughName));
-    //   boroughElement.append($("<p>").text("Borough Density: " + boroughDensity));
-    //   $("body").append(boroughElement);
-    // }
-
-  
-
-
 let ticking = false;
 let scrollTop;
+
+const SCALE_MULTIPLIER = 100;
 
 window.addEventListener("scroll", function (e) {
   scrollTop =
@@ -46,9 +31,7 @@ window.addEventListener("scroll", function (e) {
 
   if (!ticking) {
     window.requestAnimationFrame(function () {
-      const scrollValue = Math.round(scrollTop);
-      const scaledScrollValue = scrollValue * 100;
-      document.getElementById("scroll-value").innerHTML = scaledScrollValue;
+      document.getElementById("scroll-value").innerHTML = getScaledScrollTopValue();
       ticking = false;
     });
 
@@ -56,46 +39,41 @@ window.addEventListener("scroll", function (e) {
   }
 });
 
-var scrollPosition = 0;
+// Get scalled scroll top value
+function getScaledScrollTopValue() {
+  const scrollValue = Math.round(scrollTop);
+  const scaledScrollValue = scrollValue * SCALE_MULTIPLIER;
 
-$(window).scroll(function() {
-  scrollPosition = $(this).scrollTop();
-});
+  return scaledScrollValue;
+}
 
 function updateClasses() {
-  var footerHeight = $('footer').outerHeight();
-  var windowHeight = $(window).height();
-  var scrollTop = $(window).scrollTop();
-  var scrollValue = (scrollTop + windowHeight - footerHeight) / windowHeight * 100;
+  const scaledScrollValue = getScaledScrollTopValue();
 
-  $('path').removeClass('active');
-
-  switch (true) {
-    case scrollValue >= 1550849:
-      $('path.Queens').addClass('active');
-      break;
-    case scrollValue >= 2738175:
-      $('path.Brooklyn').addClass('active');
-      break;
-    case scrollValue >= 191555:
-      $('path.Statenisland').addClass('active');
-      break;
-    case scrollValue >= 1960101:
-      $('path.Manhattan').addClass('active');
-      break;
-    case scrollValue >= 1451277:
-      $('path.Bronx').addClass('active');
-      break;
-    default:
-      break;
+  // Add class to grouped svg when scaled scroll value reached.
+  if (scaledScrollValue >= 191555) {
+    $('#layer-staten').addClass('active');
+  }
+  if (scaledScrollValue >= 1451277) {
+    $('#layer-bronx').addClass('active');
+  }
+  if (scaledScrollValue >= 1550849) {
+    $('#layer-queens').addClass('active');
+  }
+  if (scaledScrollValue >= 1960101) {
+    $('#layer-manhattan').addClass('active');
+  }
+  if (scaledScrollValue >= 2738175) {
+    $('#layer-brooklyn').addClass('active');
   }
 
-  $('#scroll-value').text(scrollValue.toFixed(1));
+  // Update text
+  $('#scroll-value').text(scaledScrollValue.toFixed(1));
 }
-$(document).ready(function() {
-  updateClasses();
-});
 
-$(window).on('scroll', function() {
-  updateClasses();
+$(document).ready(function() {
+  $(window).on('scroll', function() {
+    updateClasses();
+  });
+
 });
