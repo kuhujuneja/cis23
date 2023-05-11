@@ -79,7 +79,15 @@ p{
 
 g:hover title {
   display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 12px;
 }
+
 
 .active {
   fill: none;
