@@ -20,7 +20,7 @@ $.getJSON("data.json", function(data) {
 let ticking = false;
 let scrollTop;
 
-const SCALE_MULTIPLIER = 100;
+const SCALE_MULTIPLIER = 200;
 
 window.addEventListener("scroll", function (e) {
   scrollTop =
@@ -53,18 +53,33 @@ function updateClasses() {
   // Add class to grouped svg when scaled scroll value reached.
   if (scaledScrollValue >= 191555) {
     $('#layer-staten').addClass('active');
+  } else {
+    $('#layer-staten').removeClass('active');
   }
+
   if (scaledScrollValue >= 1451277) {
     $('#layer-bronx').addClass('active');
+  }
+  else {
+    $('#layer-bronx').removeClass('active');
   }
   if (scaledScrollValue >= 1550849) {
     $('#layer-queens').addClass('active');
   }
+  else {
+    $('#layer-queens').removeClass('active');
+  }
   if (scaledScrollValue >= 1960101) {
     $('#layer-manhattan').addClass('active');
   }
+  else {
+    $('#layer-manhattan').removeClass('active');
+  }
   if (scaledScrollValue >= 2738175) {
     $('#layer-brooklyn').addClass('active');
+  }
+  else {
+    $('#layer-brooklyn').removeClass('active');
   }
 
   // Update text

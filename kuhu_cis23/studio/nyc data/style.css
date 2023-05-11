@@ -4,7 +4,7 @@ body {
 	line-height: 1.5;
 	background-color: #222222;
 	color: #ffffff;
-  height: 30000px;
+  height: 15000px;
 }
 
 svg {
@@ -16,18 +16,15 @@ svg {
   height: 72%;
 }
 
-select {
+header {
   appearance: none;
   position: fixed;
   top: 20px;
   left: 20px;
   z-index: 1;
   padding: 10px;
-  font-size: 16px;
-  background: #222222;
-  border: 1px solid #FFFFFF;
-  border-radius: 27px;
-  color: #FFFFFF;
+  font-size: 20px;
+  color: #ffffff;
 }
 
 select:focus {
@@ -70,15 +67,23 @@ footer{
 }
 
 h1 {
-	font-size: 21px;
+	font-size: 30px;
 	font-weight: 700;
 }
 
-path {
-  transition: fill 0.5s;
-} 
+p{
+  margin-top:0px;
+  font-size: 20px;
+	font-weight: 500;
+}
+
+g:hover title {
+  display: block;
+}
 
 .active {
   fill: none;
-  stroke:#ffffff
+  stroke:#ffffff;
+  transition: fill 0.5s;
 }
+
