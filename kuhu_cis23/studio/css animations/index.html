@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Animated SVG Shape</title>
+	<style>
+		body {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
+			background-color: #111;
+		}
+
+		#myShape {
+			fill: #ffcc00;
+			stroke: #fff;
+			stroke-width: 4;
+			transform-origin: center;
+			animation: spin 1s ease-in-out infinite,
+				scale 1s ease-in-out alternate infinite,
+				shake 0.5s cubic-bezier(0.36, 0.07, 0.19, 0.97) infinite;
+		}
+
+		@keyframes spin {
+			from {
+				transform: rotate(0deg);
+			}
+
+			to {
+				transform: rotate(360deg);
+			}
+		}
+
+		@keyframes scale {
+			from {
+				transform: scale(1);
+			}
+
+			to {
+				transform: scale(1.5);
+			}
+		}
+
+		@keyframes shake {
+			from {
+				transform: rotate(0deg);
+			}
+
+			to {
+				transform: rotate(2deg);
+			}
+		}
+	</style>
+</head>
+<body>
+	<svg width="200" height="200">
+		<rect id="myShape" x="10" y="10" width="180" height="180" />
+	</svg>
+</body>
+</html>
+
+
